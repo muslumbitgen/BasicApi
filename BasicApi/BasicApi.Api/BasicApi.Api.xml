@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BasicApi.Api</name>
+    </assembly>
+    <members>
+        <member name="M:BasicApi.Api.Controllers.AccountController.LoginAsync(BasicApi.Items.Dtos.UserSignInViewDto)">
+            <summary>
+            User login
+            </summary>
+            <param name="viewDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.AccountController.GetForgotPasswordAsync(System.String)">
+            <summary>
+            User ForgotPassword Token
+            </summary>
+            <param name="email"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.AccountController.ResetPasswordAsync(BasicApi.Items.Queries.GetAccountResetPasswordQuery)">
+            <summary>
+            User ResetPassword
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.AccountController.CreateAsync(BasicApi.Items.Commands.CreateUserConfirmCommand)">
+            <summary>
+            User ConfirmEmail
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.FeedbackController.CreateAsync(BasicApi.Items.Commands.CreateFeedbackCommand)">
+            <summary>
+            Create New Feedback
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.FeedbackController.GetAsync">
+            <summary>
+            Get All Feedback
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.FeedbackController.GetAsync(System.Guid)">
+            <summary>
+            Get Feedback
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.FeedbackController.DeleteAsync(System.Guid)">
+            <summary>
+            Delete Feedback
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.RoleController.CreateAsync(BasicApi.Items.Commands.CreateApplicationRoleCommand)">
+            <summary>
+            Create New Role
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.RoleController.UpdateAsync(System.Guid,BasicApi.Items.Commands.UpdateApplicationRoleCommand)">
+            <summary>
+            Update Role
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.RoleController.GetAsync(System.Guid)">
+            <summary>
+            Get Role
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.RoleController.DeleteAsync(System.Guid)">
+            <summary>
+            Delete Role
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.RoleController.GetAsync">
+            <summary>
+            Get All Role
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.UserController.CreateAsync(BasicApi.Items.Commands.CreateApplicationUserCommand)">
+            <summary>
+            Create New User
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.UserController.UpdateAsync(System.Guid,BasicApi.Items.Commands.UpdateApplicationUserCommand)">
+            <summary>
+            Update User
+            </summary>
+            <param name="id"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.UserController.GetAsync(System.Guid)">
+            <summary>
+            Get User
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.UserController.DeleteAsync(System.Guid)">
+            <summary>
+            Delete User
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.UserController.GetAsync">
+            <summary>
+            Get All User
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.UserController.UserStateAsync(System.Guid)">
+            <summary>
+            Update User Active
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.UserController.GetAssignAsync(System.Guid)">
+            <summary>
+            Get Assign Role
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.UserController.CreateAsync(BasicApi.Items.Commands.CreateAssignRoleCommand)">
+            <summary>
+            create Assign Role
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.UserController.GetUserDetailAsync">
+            <summary>
+            Get User Detail
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BasicApi.Api.Controllers.UserController.GetGlobalCountAsync">
+            <summary>
+            Get Global Count
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

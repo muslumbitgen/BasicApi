@@ -1,0 +1,23 @@
+﻿@model BasicApi.Items.Dtos.FeedbackViewDto
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+    Sayın Yönetici, <br /> <br />
+    Bilgilerim: <br />
+    Adınız: @Model.Name<br />
+    E-posta Adresi: @Model.Email<br />
+    Telefon No: @Model.Phone<br /> <br />
+    Konu: @Model.Subject<br /> <br />
+    Mesaj: @Model.Message
+</body>
+</html>
