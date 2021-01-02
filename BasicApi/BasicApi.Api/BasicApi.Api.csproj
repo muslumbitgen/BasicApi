@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\MuslumBitgen\source\repos\BasicApi\BasicApi\BasicApi.Api\BasicApi.Api.xml</DocumentationFile>
+    <DocumentationFile>C:\Users\bitgenmu\source\repos\muslumbitgen\BasicApi\BasicApi\BasicApi.Api\BasicApi.Api.xml</DocumentationFile>
     <NoWarn>1701;1702;1591</NoWarn>
   </PropertyGroup>
   <ItemGroup>
